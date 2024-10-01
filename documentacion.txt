@@ -1,0 +1,31 @@
+Paso 1: Instalar React Native CLI
+npm install -g expo-cli
+
+Paso 2: Crear una aplicación
+expo init react-app
+
+Instalar
+npx expo install react-native-web react-dom @expo/metro-runtime
+
+Paso3: Correr la app
+npm start
+
+utilizar un linter
+npm install --save-dev babel-eslint eslint-config-standard eslint-config-standard-jsx eslint-config-standard-react eslint-plugin-promise eslint-plugin-import eslint-plugin-node eslint-plugin-react
+
+agregar en la package json 
+"eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": ["standard", "standard-jsx", "standard-react"]
+
+
+  }
+
+
+componentes
+
+view es similar a div pero con flexbox
+text renderiza todos los textos
+touchable es un boton
+
+Min 25:55
